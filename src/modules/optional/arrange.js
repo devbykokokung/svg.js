@@ -99,7 +99,8 @@ export function insertAfter(element) {
 }
 
 export function prepend(element) {
-  element.prepend(this)
+  element = makeInstance(element)
+  console.log(element)
   return this
 }
 
