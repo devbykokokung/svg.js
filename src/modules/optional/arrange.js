@@ -100,6 +100,7 @@ export function insertAfter(element) {
 
 export function prepend(element) {
   element = makeInstance(element)
+  console.log(this)
   console.log(element)
   return this
 }
